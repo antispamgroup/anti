@@ -14,6 +14,7 @@ end
 return {
   patterns = {
     "^[!/#](lock join)$"
+    "^(lock join)$"
   },
   run = run
 }
