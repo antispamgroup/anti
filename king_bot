@@ -1,0 +1,25 @@
+do
+ function run(msg, matches)
+if is_momod(msg) then
+return [[
+king_bot
+برترین بات انتی اسپم
+سروری فوق العاده
+پلاگین هایی عالی
+سرعتی بینطیر 
+sodo: @IRAN_KAISER
+dev: @programer_iran
+چنل پشتیبان
+@kaiser900
+]]
+end
+end
+return {
+patterns = {
+    "^[!#/*](king)$",
+    "^(king)$",    
+    "^(کینگ)$",  
+},
+run = run
+}
+end
