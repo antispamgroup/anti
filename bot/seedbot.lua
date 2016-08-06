@@ -212,53 +212,54 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-	"admin",
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
+       	"admin",
+          "onservice",
+         "inrealm",
+         "ingroup",
+         "inpm",
+          "banhammer",
+         "stats",
+          "anti_spam",
+         "owners",
+         "arabic_lock",
+         "set",
+         "get",
+         "broadcast",
+         "invite",
+         "all",
+         "leave_ban",
 	"supergroup",
 	"whitelist",
+	"lock_group",
+	"king_bot",
+	"addadmin",
+	"addsodo",
+	"addbot",
+	"addplug",
+	"aparat",
+	"block",
+	"broadcast1",
+	"filter",
+	"linkpv",
+	"lock.fwd",
+	"lock.join",
+	"lock_bots",
+	"lock_emoji",
+	"lock_english",
+	"lock_fosh",
+	"lock_tag",
+	"lock_username",
+	"logo",
+	"off_on_bot",
+	"plugins",
+	"rsmg",
+	"set_type",
+	"sina";
+	"warn";
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {269268739,202093033,188439610,(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
-]],
     help_text_realm = [[
 Realm Commands:
 
